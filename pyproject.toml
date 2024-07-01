@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "netflow-scripts"
+version = "0.1.0"
+description = ""
+authors = ["Mohammad Saad <81032267+masaad01@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+geoip2fast = "^1.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
